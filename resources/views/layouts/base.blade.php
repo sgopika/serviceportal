@@ -1,0 +1,6 @@
+@include('layouts.header')
+    @yield('content')
+@include('layouts.jsfooterfront')
+@include('layouts.scriptfooter')
+    @yield('customscripts')
+@include('layouts.footer')

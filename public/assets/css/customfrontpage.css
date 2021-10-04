@@ -1,0 +1,150 @@
+.cardborder {
+        border-color: #95b2d8;
+    }
+    .card:hover {
+        -webkit-box-shadow: 0px 13px 48px -27px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 13px 48px -27px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 13px 48px -27px rgba(0, 0, 0, 0.75);
+        
+    }
+    .rounded-full {
+        border-radius: 9999px;
+    }
+    .page-button {
+        background-color: rgba(0,0,0,0);
+        border-color: rgba(0,0,0,0)!important;
+        margin-left: 5px;
+        width: 30px;
+        margin-top: 3px;
+        border-color: rgb(207, 221, 221);
+    }
+    .card-footer {
+        padding: .5rem 1rem;
+        background-color: rgba(0,0,0,0);
+        border-top: 1px solid rgba(0,0,0,0);
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgba(0, 0, 0, 0);
+        padding-bottom: 20px;
+    }
+    .deplink-button{
+        background-color: #5D6DBF;
+        /* border-radius: 63px 63px 63px 63px;
+        -moz-border-radius: 63px 63px 63px 63px;
+        -webkit-border-radius: 63px 63px 63px 63px; */
+        width: 100%;
+        color: #fff !important;
+    }
+    .card{
+        border-color: rgba(219,234,254);
+        box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .2s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.2s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+        
+        cursor: pointer;
+    }
+    .card:hover{
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+    .btn-service-find-select
+    {
+        background-color: #155C97;
+        padding-left:30px;
+        padding-right:30px;
+        border-radius: 63px 63px 63px 63px;
+        -moz-border-radius: 63px 63px 63px 63px;
+        -webkit-border-radius: 63px 63px 63px 63px;
+        border: 0px solid #000000;
+        margin-top:10px;
+        color:white;
+    }
+    .custom-select {
+       color: white !important;
+    }
+    .custom-select select {
+        background-color: #155C97;
+        padding-left:30px;
+        padding-right:30px;
+        border-radius: 63px 63px 63px 63px;
+        -moz-border-radius: 63px 63px 63px 63px;
+        -webkit-border-radius: 63px 63px 63px 63px;
+        border: 0px solid #000000;
+        margin-top:10px;
+        color:white;
+    }
+   
+
+    .btn-service-find-select li{
+        color:white !important;
+    }
+    .btn-service-find-select:hover
+    {
+        background-color: #155C97;
+    }
+    .btn-service-find:active
+    {
+        background-color: #155C97;
+    }
+    .filter-label
+    {
+        padding-top:8px;
+        margin-right: 5px;
+    }
+    .showing-services-text {
+        margin-top: 12px;
+    }
+
+    @media (max-width: 990px) {
+        .showing-services-text {
+            text-align: center !important;
+        }
+    }
+    .bg-image-search
+    {
+        background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://product.cdit.org/sites/keralagov/assets/img/slide-2.jpg');
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-position: center; 
+        background-size: cover; 
+        color:white;
+    }
+    
+    .card a:link {
+    color: black !important;
+    }
+
+    .card a:visited {
+    color: black !important;
+    }
+
+    .card a:hover {
+    color: black !important;
+    }
+
+
+    .card a:active {
+    color: black !important;
+    }
+
+.serviceloginbtn{
+    border-radius: 20px;
+    color: #fff !important;
+    background-color: #174878;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   padding-right: 30px !important;
+   padding-left: 30px !important;
+}
+.serviceloginbtn:hover{
+    border-radius: 20px;
+    color: #fff;
+    background-color: #326fab;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding-right: 30px;
+   padding-left: 30px;
+}
+
+.card-title
+{
+    color: #174878;
+    font-size: 16px;
+}

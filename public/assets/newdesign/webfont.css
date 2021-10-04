@@ -1,0 +1,28 @@
+
+@font-face {
+	font-family: 'Manjari';
+	src: url('webfont/subset-Manjari-Regular.eot');
+	src: url('webfont/subset-Manjari-Regular.eot?#iefix') format('embedded-opentype'),
+		url('webfont/subset-Manjari-Regular.woff2') format('woff2'),
+		url('webfont/subset-Manjari-Regular.woff') format('woff'),
+		url('webfont/subset-Manjari-Regular.ttf') format('truetype'),
+		url('webfont/subset-Manjari-Regular.svg#Manjari-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.malfont{
+font-family: 'Manjari';
+}
+
+.malfont-18{
+font-family: 'Manjari';
+font-size:18px;}
+
+.malfont-16{
+font-family: 'Manjari';
+font-size:16px;}
+
+.malfont-14{
+font-family: 'Manjari';
+font-size:14px;}
